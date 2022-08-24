@@ -1,0 +1,21 @@
+name: "Asana create task by Github Action"
+description: "Automate create task in Asana with Github Action"
+inputs:
+  asana-secret:
+    description: "Asana app secret"
+    required: true
+  asana-workspace-id:
+    description: "Your Asana Workspace ID"
+    required: true
+  asana-project-id:
+    description: "Your Asana Project ID"
+    required: true
+  asana-task-name:
+    description: "Your Asana Task Name"
+    required: true
+  asana-task-description:
+    description: "Your Asana Task Description"
+    required: true
+runs:
+  using: "node16"
+  main: "index.js"
