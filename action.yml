@@ -10,11 +10,14 @@ inputs:
   asana-project-id:
     description: "Your Asana Project ID"
     required: true
+  asana-section-id:
+    description: "Your Asana Project ID"
+    required: true
   asana-task-name:
     description: "Your Asana Task Name"
     required: true
-  asana-task-description:
-    description: "Your Asana Task Description"
+  asana-task-due-on:
+    description: "Your Asana Due On Date"
     required: true
 runs:
   using: "node16"
