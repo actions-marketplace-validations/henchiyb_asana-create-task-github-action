@@ -37,7 +37,7 @@ async function asanaCreateTask(
 try {
   const ASANA_SECRET = core.getInput("asana-secret").toString(),
     ASANA_WORKSPACE_ID = core.getInput("asana-workspace-id").toString(),
-    ASANA_PROJECT_ID = core.getInput("asana-project_id").toString(),
+    ASANA_PROJECT_ID = core.getInput("asana-project-id").toString(),
     ASANA_SECTION_ID = core.getInput("asana-section-id").toString(),
     ASANA_TASK_NAME = core.getInput("asana-task-name").toString(),
     ASANA_TASK_DUE_ON = core.getInput("asana-task-due-on").toString(),
