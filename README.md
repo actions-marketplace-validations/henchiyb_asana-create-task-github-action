@@ -35,5 +35,6 @@ with:
   asana-secret: ''
   asana-workspace-id: ''
   asana-project-id: ''
+  asana-section-id: ''
   asana-task-name: ''
-  asana-task-description: ''
+  asana-task-due-on: ''
