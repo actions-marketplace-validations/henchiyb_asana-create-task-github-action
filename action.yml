@@ -1,5 +1,5 @@
-name: "Asana create task by Github Action"
-description: "Automate create task in Asana with Github Action"
+name: "Create Asana task by Github Action"
+description: "Automatic create task on Asana with Github Action"
 inputs:
   asana-secret:
     description: "Asana app secret"
