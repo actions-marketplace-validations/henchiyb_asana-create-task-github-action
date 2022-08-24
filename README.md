@@ -16,13 +16,17 @@ This action create an asana task for specific project.
 
 **Required** Your Asana Project ID.
 
+## `asana-section-id`
+
+**Required** Your Asana Section ID.
+
 ## `asana-task-name`
 
 **Required**  Your Asana Task Name.
 
-## `asana-task-description`
+## `asana-task-due-on`
 
-**Required**  Your Asana Task Description.
+**Required**  Your Asana Task Due On Date.
 
 ## Example usage
 
